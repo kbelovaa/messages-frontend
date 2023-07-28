@@ -1,0 +1,23 @@
+.accordion {
+  &-button {
+    padding: 3px 7px;
+  }
+
+  &-body {
+    padding: 7px;
+  }
+}
+
+.cell {
+  &-sender {
+    width: 25%;
+  }
+
+  &-subject {
+    width: 55%;
+  }
+
+  &-date {
+    width: 20%;
+  }
+}
