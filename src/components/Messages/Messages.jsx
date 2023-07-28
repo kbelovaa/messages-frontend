@@ -33,6 +33,9 @@ const Messages = ({ socket, userName, setShowToast, setNewMessage }) => {
     return formatDistance(date, new Date(), { addSuffix: true });
   };
 
+  if (messages.length === 0) {
+    return <h4 className='mt-7'>You don't have any messages yet</h4>
+  }
   return (
     <Table className="mt-5" striped bordered hover>
       <thead>
